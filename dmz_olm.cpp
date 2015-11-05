@@ -77,6 +77,7 @@ dmz_card_info dmz_card_info_for_prefix_and_length(uint8_t *number_array, uint8_t
     {CardTypeDiscover,    16, 2, 65, 65},          // Discover
     {CardTypeMaestro,     16, 2, 66, 69},          // Maestro
     {CardTypeDiscover,    16, 2, 88, 88},          // China UnionPay (Discover)
+    {CardTypeManulife,    9, 1, 4, 4},          // Manulife
   };
   
   dmz_card_info card_type_unrecognized = {CardTypeUnrecognized, -1, 1, 9, 9};
